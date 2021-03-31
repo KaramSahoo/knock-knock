@@ -2,7 +2,6 @@
     font-size: 3em;
     margin: 20px;
     position: relative;
-    bottom: 40%;
 }
 
 .player--container {
@@ -12,7 +11,6 @@
     align-items: center;
     justify-content: center;
     width: 70%;
-    bottom: 30%;
 }
 
 .playerRow {
@@ -25,6 +23,7 @@
     padding: 10px 0;
     width: 70%;
     border-bottom: 1px solid white;
+    margin: 0 0 10px 0;
 }
 
 .playerRow p:nth-child(1) {

@@ -3,6 +3,7 @@
     height: 100vh;
     width: 100%;
     background-image: url(C:\Users\asus\Desktop\knock-knock\src\assets\Bg.jpg);
+    background-repeat: repeat-y;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;

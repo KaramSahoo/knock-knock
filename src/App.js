@@ -12,14 +12,14 @@ import Leaderboard from './pages/Leaderboard';
 
 function App() {
 
-  const countdownDate = new Date('April 2, 2021 00:00:00 GMT+0530').getTime();
+  const countdownDate = new Date('April 2, 2021 15:00:00 GMT+0530').getTime();
   const now = new Date().getTime();
   const distance = countdownDate - now;
   const [day, setDay] = useState(1)
   const user = useContext(UserContext);
 
   useEffect(() => {
-    const secondDay = new Date('April 3, 2021 00:00:00 GMT+0530').getTime();
+    const secondDay = new Date('April 3, 2021 15:00:00 GMT+0530').getTime();
     if (now > secondDay) {
       setDay(2);
     }
