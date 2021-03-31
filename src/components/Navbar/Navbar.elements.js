@@ -72,7 +72,8 @@ export const NavItem = styled.li`
   height: 70px;
   border-bottom: 2px solid transparent;
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #fff;
+    border-radius: 1px;
   }
   @media screen and (max-width: 960px) {
     width: 100%;

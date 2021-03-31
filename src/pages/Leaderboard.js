@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import firebase from 'firebase'
 import Firebase from '../firebase.js'
 import './Leaderboard.css'
 import _ from 'lodash';

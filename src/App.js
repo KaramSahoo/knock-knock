@@ -12,7 +12,7 @@ import Leaderboard from './pages/Leaderboard';
 
 function App() {
 
-  const countdownDate = new Date('April 2, 2020 00:00:00 GMT+0530').getTime();
+  const countdownDate = new Date('April 2, 2021 00:00:00 GMT+0530').getTime();
   const now = new Date().getTime();
   const distance = countdownDate - now;
   const [day, setDay] = useState(1)

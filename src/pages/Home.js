@@ -1,7 +1,7 @@
-import React, { useContext } from 'react'
-import { UserContext } from '../UserContext'
+import React, { useContext } from 'react';
+import { UserContext } from '../UserContext';
 import { AuthPage } from '../components';
-import './Home.css'
+import './Home.css';
 import { Link } from 'react-router-dom';
 
 function Home() {
