@@ -42,8 +42,9 @@ function Leaderboard() {
 
     return (
         <div className='holder'>
+            <div className='imgholder'></div>
             <div style={{
-                position: 'relative',
+                position: 'absolute',
                 display: 'flex',
                 flexDirection: 'column',
                 top: '0',

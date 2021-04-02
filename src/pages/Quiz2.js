@@ -213,7 +213,7 @@ export default function Quiz2() {
             <div className='quiz'>
                 {(showScore || user.currentQuestion === questions.length) ? (
                     <div className='score-section'>
-                        You scored {score} out of {questions.length}
+                        You scored {score} out of 45
                     </div>
                 ) : (
                     <>
