@@ -36,9 +36,7 @@ function Leaderboard() {
             var uniqueNames = _.uniqBy(tutorials, 'name')
             setPlayers(_.orderBy(uniqueNames, 'score', 'desc'));
         }
-    }, [])
-
-    // console.log(players);
+    }, [players])
 
     return (
         <div className='holder'>

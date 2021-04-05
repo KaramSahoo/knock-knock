@@ -9,6 +9,7 @@ import Quiz1 from './pages/Quiz1';
 import Quiz2 from './pages/Quiz2';
 import Rule from './pages/Rule';
 import Leaderboard from './pages/Leaderboard';
+import Ending from './components/Ending/Ending.js'
 
 function App() {
 
@@ -37,10 +38,10 @@ function App() {
               <Switch>
                 <Route path='/' exact component={Home} />
                 {
-                  user.currentUser && (day===1) && <Route path='/quiz' exact component={Quiz1} />
+                  user.currentUser && (day === 1) && <Route path='/quiz' exact component={Quiz1} />
                 }
                 {
-                  user.currentUser && (day===2) && <Route path='/quiz' exact component={Quiz2} />
+                  user.currentUser && (day === 2) && <Route path='/quiz' exact component={Quiz2} />
                 }
                 {
                   !user.currentUser && <Route path='/quiz' exact component={Home} />
